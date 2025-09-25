@@ -1,0 +1,30 @@
+proxies:
+  - name: ⚡ HexaTunnel-01
+    ip: 103.69.10.27
+    port: 7020
+    username: Htunnel
+    password: Htunnel
+
+  - name: ⚡ HexaTunnel-02
+    ip: 103.167.25.48
+    port: 7020
+    username: Htunnel
+    password: Htunnel
+
+  - name: ⚡ HexaTunnel-03
+    ip: 103.167.75.12
+    port: 7020
+    username: Htunnel
+    password: Htunnel
+
+  - name: ⚡ HexaTunnel-04
+    ip: 103.166.65.34
+    port: 7020
+    username: Htunnel
+    password: Htunnel
+
+  - name: ⚡ HexaTunnel-05
+    ip: 103.38.45.123
+    port: 7020
+    username: Htunnel
+    password: Htunnel
