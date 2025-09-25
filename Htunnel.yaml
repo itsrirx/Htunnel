@@ -1,0 +1,30 @@
+proxies:
+  - name: ⚡ HexaTunnel-01
+    ip: 103.69.151.41
+    port: 7626
+    username: Hexatunnel
+    password: Hexatunnel
+
+  - name: ⚡ HexaTunnel-02
+    ip: 103.167.17.248
+    port: 7626
+    username: Hexatunnel
+    password: Hexatunnel
+
+  - name: ⚡ HexaTunnel-03
+    ip: 103.167.17.246
+    port: 7626
+    username: Hexatunnel
+    password: Hexatunnel
+
+  - name: ⚡ HexaTunnel-04
+    ip: 103.166.253.20
+    port: 7626
+    username: Hexatunnel
+    password: Hexatunnel
+
+  - name: ⚡ HexaTunnel-05
+    ip: 103.38.55.69
+    port: 7626
+    username: Hexatunnel
+    password: Hexatunnel
