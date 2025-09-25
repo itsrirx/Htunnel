@@ -1,59 +1,28 @@
-proxies:
-  - name: ⚡ HexaTunnel-01
-    type: socks5
-    server: 103.69.151.41
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-02
-    type: socks5
-    server: 103.167.17.248
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-03
-    type: socks5
-    server: 103.167.17.246
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-04
-    type: socks5
-    server: 103.166.253.20
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-05
-    type: socks5
-    server: 103.38.55.69
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
+proxy-providers:
+  HexaTunnelProvider:
+    type: http
+    url: "https://htunnel.itsrirx.workers.dev/"
+    interval: 3600
+    path: ./proxies/HexaTunnel.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
   - name: ⚡ Manual Selection
     type: select
+    use:
+      - HexaTunnelProvider
     proxies:
       - ⚡ Load-Balance
-      - ⚡ HexaTunnel-01
-      - ⚡ HexaTunnel-02
-      - ⚡ HexaTunnel-03
-      - ⚡ HexaTunnel-04 
-      - ⚡ HexaTunnel-05
 
   - name: ⚡ Load-Balance
     type: load-balance
     strategy: round-robin
-    proxies:
-      - ⚡ HexaTunnel-01
-      - ⚡ HexaTunnel-02
-      - ⚡ HexaTunnel-03
-      - ⚡ HexaTunnel-04
-      - ⚡ HexaTunnel-05
+    use:
+      - HexaTunnelProvider
 
 rules:
   - DOMAIN-SUFFIX,google.com,DIRECT
