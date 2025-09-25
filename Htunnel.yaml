@@ -1,35 +1,7 @@
 proxies:
-  - name: ⚡ HexaTunnel-01
+  - name: ⚡ Closed
     type: socks5
-    server: 103.69.151.41
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-02
-    type: socks5
-    server: 103.167.17.248
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-03
-    type: socks5
-    server: 103.167.17.246
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-04
-    type: socks5
-    server: 103.166.253.20
-    port: 7626
-    username: Hexatunnel
-    password: Hexatunnel
-
-  - name: ⚡ HexaTunnel-05
-    type: socks5
-    server: 103.38.55.69
+    server: 103.69.20.30
     port: 7626
     username: Hexatunnel
     password: Hexatunnel
