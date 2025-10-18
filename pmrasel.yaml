@@ -1,0 +1,76 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+
+proxies:
+  - name: "⚡ PMrasel-01"
+    type: socks5
+    server: s5.proxymama.online
+    port: 7626
+    username: rasel
+    password: rasel
+
+  - name: "⚡ PMrasel-02"
+    type: socks5
+    server: s3.proxymama.online
+    port: 7626
+    username: rasel
+    password: rasel
+
+  - name: "⚡ PMrasel-03"
+    type: socks5
+    server: s9.proxymama.online
+    port: 7626
+    username: rasel
+    password: rasel
+
+  - name: "⚡ PMrasel-04"
+    type: socks5
+    server: s2.proxymama.online
+    port: 12522
+    username: rasel
+    password: rasel
+
+  - name: "⚡ PMrasel-05"
+    type: socks5
+    server: s8.proxymama.online
+    port: 7626
+    username: rasel
+    password: rasel
+
+  - name: "⚡ PMrasel-06"
+    type: socks5
+    server: s6.proxymama.online
+    port: 7626
+    username: rasel
+    password: rasel
+
+proxy-groups:
+  - name: "🌐 LoadBalance"
+    type: load-balance
+    strategy: round-robin
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    proxies:
+      - "⚡ PMrasel-01"
+      - "⚡ PMrasel-02"
+      - "⚡ PMrasel-03"
+      - "⚡ PMrasel-04"
+      - "⚡ PMrasel-05"
+      - "⚡ PMrasel-06"
+
+  - name: "🚀 Proxy"
+    type: select
+    proxies:
+      - "🌐 LoadBalance"
+      - "DIRECT"
+
+rules:
+  - DOMAIN-SUFFIX,google.com,🚀 Proxy
+  - DOMAIN-SUFFIX,youtube.com,🚀 Proxy
+  - DOMAIN-SUFFIX,facebook.com,🚀 Proxy
+  - DOMAIN-SUFFIX,netflix.com,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - MATCH,🚀 Proxy
