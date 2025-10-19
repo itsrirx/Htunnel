@@ -1,45 +1,80 @@
 proxies:
   - name: "🌐 ProxyMama-01"
+    type: http
     server: 113.11.126.170
     port: 9107
-    type: http
 
   - name: "🌐 ProxyMama-02"
+    type: http
     server: 113.11.126.6
     port: 8443
-    type: http
 
   - name: "🌐 ProxyMama-03"
+    type: http
     server: 113.11.3.122
     port: 8443
-    type: http
 
   - name: "🌐 ProxyMama-04"
+    type: http
     server: 113.11.3.182
     port: 16289
-    type: http
 
   - name: "🌐 ProxyMama-05"
+    type: http
     server: 113.11.3.126
     port: 9107
-    type: http
 
   - name: "🌐 ProxyMama-06"
+    type: http
     server: 113.11.3.82
     port: 1628
-    type: http
 
   - name: "🌐 ProxyMama-07"
+    type: http
     server: 113.11.3.70
     port: 1122
-    type: http
 
   - name: "🌐 ProxyMama-08"
+    type: http
     server: 113.11.3.74
     port: 9797
-    type: http
 
   - name: "🌐 ProxyMama-09"
+    type: http
     server: 113.11.126.218
     port: 8443
+
+  - name: "🌐 ProxyMama-10"
     type: http
+    server: 113.11.126.26
+    port: 8443
+
+  - name: "🌐 ProxyMama-11"
+    type: http
+    server: 113.11.126.142
+    port: 8443
+
+  - name: "🌐 ProxyMama-12"
+    type: http
+    server: 113.11.126.14
+    port: 1628
+
+  - name: "🌐 ProxyMama-13"
+    type: http
+    server: 113.11.126.22
+    port: 1628
+
+  - name: "🌐 ProxyMama-14"
+    type: http
+    server: 113.11.126.30
+    port: 2333
+
+  - name: "🌐 ProxyMama-15"
+    type: http
+    server: 113.11.126.38
+    port: 36909
+
+  - name: "🌐 ProxyMama-16"
+    type: http
+    server: 113.11.126.190
+    port: 8443
