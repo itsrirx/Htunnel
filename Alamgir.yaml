@@ -21,8 +21,8 @@ proxies:
     port: 9107
   - name: "⚡ PMalamgir-06"
     type: http
-    server: 115.127.148.106
-    port: 8080
+    server: 123.200.22.6
+    port: 1080
   - name: "⚡ PMalamgir-07"
     type: http
     server: 115.127.114.10
