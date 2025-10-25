@@ -9,8 +9,8 @@ proxies:
     port: 8443
   - name: "⚡ PMalamgir-03"
     type: http
-    server: 113.11.3.122
-    port: 8443
+    server: 103.132.91.190
+    port: 1080
   - name: "⚡ PMalamgir-04"
     type: http
     server: 113.11.3.182
