@@ -324,8 +324,8 @@ proxies:
     password: test
   - name: "⚡ PMalamgir-65"
     type: socks5
-    server: 119.18.148.74
-    port: 7626
+    server: 103.66.177.17
+    port: 1080
     username: test
     password: test
   - name: "⚡ PMalamgir-66"
