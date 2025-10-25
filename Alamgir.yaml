@@ -13,8 +13,8 @@ proxies:
     port: 1080
   - name: "⚡ PMalamgir-04"
     type: http
-    server: 113.11.3.182
-    port: 16289
+    server: 103.91.231.152
+    port: 1080
   - name: "⚡ PMalamgir-05"
     type: http
     server: 113.11.3.126
