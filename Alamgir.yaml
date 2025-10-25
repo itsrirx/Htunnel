@@ -124,77 +124,76 @@ proxies:
     server: 113.11.126.142
     port: 8443
 
-  # SOCKS5 proxies serially named
   - name: "⚡ PMalamgir-32"
     type: socks5
     server: 103.174.230.185
-    port: 1080
+    port: 22893
     username: test
     password: test
   - name: "⚡ PMalamgir-33"
     type: socks5
     server: 103.174.231.218
-    port: 1080
+    port: 22893
     username: test
     password: test
   - name: "⚡ PMalamgir-34"
     type: socks5
     server: 103.11.197.11
-    port: 1080
+    port: 12522
     username: test
     password: test
   - name: "⚡ PMalamgir-35"
     type: socks5
     server: 103.11.197.129
-    port: 1080
+    port: 12522
     username: test
     password: test
   - name: "⚡ PMalamgir-36"
     type: socks5
     server: 103.11.197.130
-    port: 1080
+    port: 12522
     username: test
     password: test
   - name: "⚡ PMalamgir-37"
     type: socks5
     server: 103.11.197.137
-    port: 1080
+    port: 12522
     username: test
     password: test
   - name: "⚡ PMalamgir-38"
     type: socks5
     server: 103.114.99.113
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-39"
     type: socks5
     server: 103.114.99.233
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-40"
     type: socks5
     server: 49.0.32.61
-    port: 1080
+    port: 40144
     username: test
     password: test
   - name: "⚡ PMalamgir-41"
     type: socks5
     server: 103.143.0.188
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-42"
     type: socks5
     server: 160.187.238.102
-    port: 1080
+    port: 59193
     username: test
     password: test
   - name: "⚡ PMalamgir-43"
     type: socks5
     server: 103.146.2.239
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-44"
@@ -206,115 +205,115 @@ proxies:
   - name: "⚡ PMalamgir-45"
     type: socks5
     server: 202.5.37.171
-    port: 1080
+    port: 1088
     username: test
     password: test
   - name: "⚡ PMalamgir-46"
     type: socks5
     server: 202.5.37.132
-    port: 1080
+    port: 5524
     username: test
     password: test
   - name: "⚡ PMalamgir-47"
     type: socks5
     server: 202.5.37.89
-    port: 1080
+    port: 1052
     username: test
     password: test
   - name: "⚡ PMalamgir-48"
     type: socks5
     server: 202.5.37.29
-    port: 1080
+    port: 6969
     username: test
     password: test
   - name: "⚡ PMalamgir-49"
     type: socks5
     server: 202.5.36.149
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-50"
     type: socks5
     server: 202.5.36.21
-    port: 1080
+    port: 1088
     username: test
     password: test
   - name: "⚡ PMalamgir-51"
     type: socks5
     server: 103.167.17.248
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-52"
     type: socks5
     server: 103.167.17.246
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-53"
     type: socks5
     server: 114.130.99.160
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-54"
     type: socks5
     server: 114.130.160.102
-    port: 1080
+    port: 6969
     username: test
     password: test
   - name: "⚡ PMalamgir-55"
     type: socks5
     server: 202.71.181.9
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-56"
     type: socks5
     server: 182.252.76.220
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-57"
     type: socks5
     server: 202.53.169.117
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-58"
     type: socks5
     server: 202.5.36.27
-    port: 1080
+    port: 5720
     username: test
     password: test
   - name: "⚡ PMalamgir-59"
     type: socks5
     server: 119.18.146.48
-    port: 1080
+    port: 8008
     username: test
     password: test
   - name: "⚡ PMalamgir-60"
     type: socks5
     server: 103.30.30.226
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-61"
     type: socks5
     server: 202.5.48.92
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-62"
     type: socks5
     server: 202.5.47.44
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-63"
     type: socks5
     server: 202.5.33.129
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-64"
@@ -326,102 +325,12 @@ proxies:
   - name: "⚡ PMalamgir-65"
     type: socks5
     server: 119.18.148.74
-    port: 1080
+    port: 7626
     username: test
     password: test
   - name: "⚡ PMalamgir-66"
     type: socks5
     server: 119.18.147.146
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-67"
-    type: socks5
-    server: 103.114.99.110
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-68"
-    type: socks5
-    server: 103.174.230.185
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-69"
-    type: socks5
-    server: 103.109.96.175
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-70"
-    type: socks5
-    server: 103.6.123.6
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-71"
-    type: socks5
-    server: 103.214.82.128
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-72"
-    type: socks5
-    server: 103.178.221.89
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-73"
-    type: socks5
-    server: 114.130.67.225
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-74"
-    type: socks5
-    server: 202.91.40.153
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-75"
-    type: socks5
-    server: 103.141.175.37
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-76"
-    type: socks5
-    server: 202.59.211.223
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-77"
-    type: socks5
-    server: 182.48.78.81
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-78"
-    type: socks5
-    server: 103.28.122.25
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-79"
-    type: socks5
-    server: 119.148.15.161
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-80"
-    type: socks5
-    server: 103.11.196.6
-    port: 1080
-    username: test
-    password: test
-  - name: "⚡ PMalamgir-81"
-    type: socks5
-    server: 103.69.151.41
-    port: 1080
+    port: 8008
     username: test
     password: test
