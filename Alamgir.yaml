@@ -299,11 +299,9 @@ proxies:
     username: test
     password: test
   - name: "⚡ PMalamgir-61"
-    type: socks5
-    server: 202.5.48.92
-    port: 7626
-    username: test
-    password: test
+    type: http
+    server: 103.106.241.235
+    port: 46
   - name: "⚡ PMalamgir-62"
     type: socks5
     server: 202.5.47.44
@@ -311,11 +309,9 @@ proxies:
     username: test
     password: test
   - name: "⚡ PMalamgir-63"
-    type: socks5
-    server: 202.5.33.129
-    port: 7626
-    username: test
-    password: test
+    type: http
+    server: 203.76.110.118
+    port: 4523
   - name: "⚡ PMalamgir-64"
     type: socks5
     server: 119.18.149.39
